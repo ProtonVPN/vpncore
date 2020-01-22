@@ -30,6 +30,7 @@ public class LocalizedString {
     public static let delete = NSLocalizedString("_delete")
     public static let disconnect = NSLocalizedString("_disconnect")
     public static let disconnected = NSLocalizedString("_disconnected")
+    public static let disconnecting = NSLocalizedString("_disconnecting")
     public static let done = NSLocalizedString("_done")
     public static let edit = NSLocalizedString("_edit")
     public static let ok = NSLocalizedString("_ok")
