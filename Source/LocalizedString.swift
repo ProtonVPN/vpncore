@@ -537,6 +537,7 @@ public class LocalizedString {
     public static let extensions = NSLocalizedString("_extensions")
     public static let widget = NSLocalizedString("_widget")
     public static let logInToUseWidget = NSLocalizedString("_log_in_to_use_widget")
+    public static let vpnStatusNotLoggedIn = NSLocalizedString("_vpnstatus_not_loggedin")
     
     // MARK: - Report bugs
     public static let reportAttachments = NSLocalizedString("_report_attachments")
