@@ -613,7 +613,7 @@
 "_ios_onboarding_page1_title" = "Welcome to a better Internet";
 "_ios_onboarding_page1_description" = "From the scientists and engineers that created ProtonMail, welcome to a more secure and private Internet.";
 "_ios_onboarding_page2_title" = "We believe the Internet should be free";
-"_ios_onboarding_page2_description" = "Beat censorship and regional restrictions. We have no ads, no bandwidth limits, and don’t sell your data.";
+"_ios_onboarding_page2_description" = "We have no ads, no bandwidth limits, and don’t sell your data.";
 "_ios_onboarding_page3_title" = "Your security is our priority";
 "_ios_onboarding_page3_description" = "We are a security company. Whether it is our Secure Core architecture or advanced encryption, security always comes first.";
 "_next" = "Next";
