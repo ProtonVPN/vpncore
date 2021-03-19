@@ -858,6 +858,8 @@
 		F320562925E7A2A000566DB7 /* AlternativeRoutingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F320561925E7A25A00566DB7 /* AlternativeRoutingTests.swift */; };
 		F320563325E7D7CB00566DB7 /* FactoryMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = F320563225E7D7CB00566DB7 /* FactoryMock.swift */; };
 		F320563425E7D7CB00566DB7 /* FactoryMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = F320563225E7D7CB00566DB7 /* FactoryMock.swift */; };
+		F3AFC0DB25FA078D005FF4D7 /* OpenVpnConfigTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3AFC0DA25FA078D005FF4D7 /* OpenVpnConfigTests.swift */; };
+		F3AFC0DC25FA078D005FF4D7 /* OpenVpnConfigTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3AFC0DA25FA078D005FF4D7 /* OpenVpnConfigTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -1206,6 +1208,7 @@
 		F32055A925E6599300566DB7 /* AlamofireWrapper+AlternativeRouting.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "AlamofireWrapper+AlternativeRouting.swift"; sourceTree = "<group>"; };
 		F320561925E7A25A00566DB7 /* AlternativeRoutingTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlternativeRoutingTests.swift; sourceTree = "<group>"; };
 		F320563225E7D7CB00566DB7 /* FactoryMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FactoryMock.swift; sourceTree = "<group>"; };
+		F3AFC0DA25FA078D005FF4D7 /* OpenVpnConfigTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpenVpnConfigTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -2118,6 +2121,7 @@
 			isa = PBXGroup;
 			children = (
 				F320561925E7A25A00566DB7 /* AlternativeRoutingTests.swift */,
+				F3AFC0DA25FA078D005FF4D7 /* OpenVpnConfigTests.swift */,
 			);
 			path = Networking;
 			sourceTree = "<group>";
@@ -2852,6 +2856,7 @@
 				D5D2945025A45B4D000FBD74 /* SemanticVersion.swift in Sources */,
 				D5C205512487A0CF004FB58B /* LocationUtility.swift in Sources */,
 				F3021D8125E93E8C00EF73A1 /* NSMutableAttributedString+Extensions.swift in Sources */,
+				F3AFC0DB25FA078D005FF4D7 /* OpenVpnConfigTests.swift in Sources */,
 				D5C205522487A0CF004FB58B /* SafariService.swift in Sources */,
 				D5C205532487A0CF004FB58B /* Disconnect.swift in Sources */,
 				D5C205542487A0CF004FB58B /* QuickConnect.swift in Sources */,
@@ -3194,6 +3199,7 @@
 				D5CC0023256BEF70003FA161 /* TrialCheckerTests.swift in Sources */,
 				D5C2049524866B81004FB58B /* BaseRequest.swift in Sources */,
 				D5C2049624866B81004FB58B /* VpnProperties.swift in Sources */,
+				F3AFC0DC25FA078D005FF4D7 /* OpenVpnConfigTests.swift in Sources */,
 				D5C2049724866B81004FB58B /* UserProperties.swift in Sources */,
 				D5C2049824866B81004FB58B /* ReportBug.swift in Sources */,
 				D5C2049924866B81004FB58B /* ServicePlansProperties.swift in Sources */,
@@ -3528,8 +3534,8 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -3590,8 +3596,8 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -3624,7 +3630,7 @@
 				);
 				INFOPLIST_FILE = "$(SRCROOT)/Source/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -3661,7 +3667,7 @@
 				);
 				INFOPLIST_FILE = "$(SRCROOT)/Source/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -3690,7 +3696,7 @@
 					"$(PROJECT_DIR)/Frameworks-ios",
 				);
 				INFOPLIST_FILE = Tests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -3699,6 +3705,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "ch.protonmail.vpncore-iosTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -3717,7 +3724,7 @@
 					"$(PROJECT_DIR)/Frameworks-ios",
 				);
 				INFOPLIST_FILE = Tests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -3726,6 +3733,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "ch.protonmail.vpncore-iosTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -3756,7 +3764,7 @@
 					"@executable_path/../Frameworks",
 					"@loader_path/Frameworks",
 				);
-				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
 				PRODUCT_BUNDLE_IDENTIFIER = ch.protonmail.vpncore;
 				PRODUCT_NAME = vpncore;
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -3791,7 +3799,7 @@
 					"@executable_path/../Frameworks",
 					"@loader_path/Frameworks",
 				);
-				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
 				PRODUCT_BUNDLE_IDENTIFIER = ch.protonmail.vpncore;
 				PRODUCT_NAME = vpncore;
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -3822,7 +3830,7 @@
 					"@executable_path/../Frameworks",
 					"@loader_path/../Frameworks",
 				);
-				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
 				PRODUCT_BUNDLE_IDENTIFIER = "ch.protonmail.vpncore-macosTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -3852,7 +3860,7 @@
 					"@executable_path/../Frameworks",
 					"@loader_path/../Frameworks",
 				);
-				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
 				PRODUCT_BUNDLE_IDENTIFIER = "ch.protonmail.vpncore-macosTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
