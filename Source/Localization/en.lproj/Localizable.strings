@@ -126,6 +126,7 @@
 "_reset_password" = "Reset Password";
 "_forgot_username" = "Forgot Username";
 "_forgot_password" = "Forgot Password?";
+"_length_password" = "The password must have at least 8 characters";
 "_sign_up" = "Sign Up";
 "_warning_vpn_session_is_active" = "Another user's ProtonVPN session is active on this device. Continuing with the log in process will cause the current session to end. Do you want to continue?";
 "_enter_email_address" = "Enter email address";

@@ -26,6 +26,7 @@ public enum FormValidationError: Error {
     case wrongEmail
     case emptyValue
     case passwordsDontMatch
+    case passwordTooShort
 }
 
 extension FormValidationError: LocalizedError {
@@ -38,6 +39,8 @@ extension FormValidationError: LocalizedError {
             return LocalizedString.errorFieldRequired
         case .passwordsDontMatch:
             return LocalizedString.errorFieldPasswordDontMatch
+        case .passwordTooShort:
+            return LocalizedString.lengthPassword
         }
     }
     
@@ -49,6 +52,8 @@ extension FormValidationError: LocalizedError {
             return "emptyValue"
         case .passwordsDontMatch:
             return "passwordsDontMatch"
+        case .passwordTooShort:
+            return "passwordTooShort"
         }
     }
     

@@ -131,6 +131,7 @@ public class LocalizedString {
     public static let username = NSLocalizedString("_username", comment: "Used in sign-in, sign-up and in settings")
     public static let password = NSLocalizedString("_password", comment: "Used in sign-in, sign-up")
     public static let passwordConfirm = NSLocalizedString("_password_confirm", comment: "Sign-up form")
+    public static let lengthPassword = NSLocalizedString("_length_password", comment: "Sign-up form")
     public static let show = NSLocalizedString("_show", comment: "Show/hide password switch")
     public static let hide = NSLocalizedString("_hide", comment: "Show/hide password switch")
     public static let login = NSLocalizedString("_login", comment: "MacOS: Login button")
