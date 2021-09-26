@@ -509,7 +509,7 @@ public class VpnManager: VpnManagerProtocol {
         }
     }
     
-    /// Get last VPN connectino error.
+    /// Get last VPN connection error.
     /// Currently detects only errors from OpenVPN connection.
     private func lastError() -> Error? {
         let defaults = UserDefaults(suiteName: appGroup)
